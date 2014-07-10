@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08BD47A01966A9AB0000D0D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BD479F1966A9AB0000D0D2 /* AppDelegate.swift */; };
+		08BD47A21966A9AB0000D0D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BD47A11966A9AB0000D0D2 /* ViewController.swift */; };
+		08BD47A51966A9AB0000D0D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08BD47A31966A9AB0000D0D2 /* Main.storyboard */; };
+		08BD47A71966A9AB0000D0D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08BD47A61966A9AB0000D0D2 /* Images.xcassets */; };
+		08BD47B31966A9AB0000D0D2 /* BespeakMealSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BD47B21966A9AB0000D0D2 /* BespeakMealSystemTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08BD47AD1966A9AB0000D0D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08BD47921966A9AB0000D0D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08BD47991966A9AB0000D0D2;
+			remoteInfo = BespeakMealSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08BD479A1966A9AB0000D0D2 /* BespeakMealSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BespeakMealSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08BD479E1966A9AB0000D0D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08BD479F1966A9AB0000D0D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08BD47A11966A9AB0000D0D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08BD47A41966A9AB0000D0D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08BD47A61966A9AB0000D0D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		08BD47AC1966A9AB0000D0D2 /* BespeakMealSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BespeakMealSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08BD47B11966A9AB0000D0D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08BD47B21966A9AB0000D0D2 /* BespeakMealSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BespeakMealSystemTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08BD47971966A9AB0000D0D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08BD47A91966A9AB0000D0D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08BD47911966A9AB0000D0D2 = {
+			isa = PBXGroup;
+			children = (
+				08BD479C1966A9AB0000D0D2 /* BespeakMealSystem */,
+				08BD47AF1966A9AB0000D0D2 /* BespeakMealSystemTests */,
+				08BD479B1966A9AB0000D0D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08BD479B1966A9AB0000D0D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08BD479A1966A9AB0000D0D2 /* BespeakMealSystem.app */,
+				08BD47AC1966A9AB0000D0D2 /* BespeakMealSystemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08BD479C1966A9AB0000D0D2 /* BespeakMealSystem */ = {
+			isa = PBXGroup;
+			children = (
+				08BD479F1966A9AB0000D0D2 /* AppDelegate.swift */,
+				08BD47A11966A9AB0000D0D2 /* ViewController.swift */,
+				08BD47A31966A9AB0000D0D2 /* Main.storyboard */,
+				08BD47A61966A9AB0000D0D2 /* Images.xcassets */,
+				08BD479D1966A9AB0000D0D2 /* Supporting Files */,
+			);
+			path = BespeakMealSystem;
+			sourceTree = "<group>";
+		};
+		08BD479D1966A9AB0000D0D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08BD479E1966A9AB0000D0D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08BD47AF1966A9AB0000D0D2 /* BespeakMealSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				08BD47B21966A9AB0000D0D2 /* BespeakMealSystemTests.swift */,
+				08BD47B01966A9AB0000D0D2 /* Supporting Files */,
+			);
+			path = BespeakMealSystemTests;
+			sourceTree = "<group>";
+		};
+		08BD47B01966A9AB0000D0D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08BD47B11966A9AB0000D0D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08BD47991966A9AB0000D0D2 /* BespeakMealSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08BD47B61966A9AB0000D0D2 /* Build configuration list for PBXNativeTarget "BespeakMealSystem" */;
+			buildPhases = (
+				08BD47961966A9AB0000D0D2 /* Sources */,
+				08BD47971966A9AB0000D0D2 /* Frameworks */,
+				08BD47981966A9AB0000D0D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BespeakMealSystem;
+			productName = BespeakMealSystem;
+			productReference = 08BD479A1966A9AB0000D0D2 /* BespeakMealSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08BD47AB1966A9AB0000D0D2 /* BespeakMealSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08BD47B91966A9AB0000D0D2 /* Build configuration list for PBXNativeTarget "BespeakMealSystemTests" */;
+			buildPhases = (
+				08BD47A81966A9AB0000D0D2 /* Sources */,
+				08BD47A91966A9AB0000D0D2 /* Frameworks */,
+				08BD47AA1966A9AB0000D0D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08BD47AE1966A9AB0000D0D2 /* PBXTargetDependency */,
+			);
+			name = BespeakMealSystemTests;
+			productName = BespeakMealSystemTests;
+			productReference = 08BD47AC1966A9AB0000D0D2 /* BespeakMealSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08BD47921966A9AB0000D0D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Galaxywind;
+				TargetAttributes = {
+					08BD47991966A9AB0000D0D2 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					08BD47AB1966A9AB0000D0D2 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 08BD47991966A9AB0000D0D2;
+					};
+				};
+			};
+			buildConfigurationList = 08BD47951966A9AB0000D0D2 /* Build configuration list for PBXProject "BespeakMealSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08BD47911966A9AB0000D0D2;
+			productRefGroup = 08BD479B1966A9AB0000D0D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08BD47991966A9AB0000D0D2 /* BespeakMealSystem */,
+				08BD47AB1966A9AB0000D0D2 /* BespeakMealSystemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08BD47981966A9AB0000D0D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BD47A51966A9AB0000D0D2 /* Main.storyboard in Resources */,
+				08BD47A71966A9AB0000D0D2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08BD47AA1966A9AB0000D0D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08BD47961966A9AB0000D0D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BD47A21966A9AB0000D0D2 /* ViewController.swift in Sources */,
+				08BD47A01966A9AB0000D0D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08BD47A81966A9AB0000D0D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BD47B31966A9AB0000D0D2 /* BespeakMealSystemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08BD47AE1966A9AB0000D0D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08BD47991966A9AB0000D0D2 /* BespeakMealSystem */;
+			targetProxy = 08BD47AD1966A9AB0000D0D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08BD47A31966A9AB0000D0D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08BD47A41966A9AB0000D0D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08BD47B41966A9AB0000D0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08BD47B51966A9AB0000D0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08BD47B71966A9AB0000D0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BespeakMealSystem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		08BD47B81966A9AB0000D0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BespeakMealSystem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		08BD47BA1966A9AB0000D0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BespeakMealSystem.app/BespeakMealSystem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BespeakMealSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		08BD47BB1966A9AB0000D0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BespeakMealSystem.app/BespeakMealSystem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BespeakMealSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08BD47951966A9AB0000D0D2 /* Build configuration list for PBXProject "BespeakMealSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08BD47B41966A9AB0000D0D2 /* Debug */,
+				08BD47B51966A9AB0000D0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08BD47B61966A9AB0000D0D2 /* Build configuration list for PBXNativeTarget "BespeakMealSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08BD47B71966A9AB0000D0D2 /* Debug */,
+				08BD47B81966A9AB0000D0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08BD47B91966A9AB0000D0D2 /* Build configuration list for PBXNativeTarget "BespeakMealSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08BD47BA1966A9AB0000D0D2 /* Debug */,
+				08BD47BB1966A9AB0000D0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08BD47921966A9AB0000D0D2 /* Project object */;
+}

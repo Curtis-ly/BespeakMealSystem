@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Window size="800,572" sizebox="4,4,6,6" roundcorner="5,5" caption="0,0,0,90" mininfo="800,570">
   <Font name="宋体" size="13" bold="true" />
   <Font name="宋体" size="12" bold="true" />
@@ -16,7 +16,7 @@
       </HorizontalLayout>
       <HorizontalLayout width="188" inset="0,1,0,0">
         <Button text="{u}{a}求助{/a}{/u}" showhtml="true"/>
-        <Button name="btnForum" text="{u}{a}论坛{/a}{/u}" showhtml="true"/>
+        <Button name="forumbtn" text="{u}{a}论坛{/a}{/u}" showhtml="true"/>
         <Button name="menubtn" maxwidth="26" maxheight="17" normalimage="file='sys_dlg_menu.png' source='52,0,78,17'" hotimage="file='sys_dlg_menu.png' source='26,0,52,17'" pushedimage="file='sys_dlg_menu.png' source='0,0,26,17'"/>
         <Button name="minbtn" maxwidth="26" maxheight="17" normalimage="file='sys_dlg_min.png' source='52,0,78,17'" hotimage="file='sys_dlg_min.png' source='26,0,52,17'" pushedimage="file='sys_dlg_min.png' source='0,0,26,17'"/>
         <Button name="maxbtn" maxwidth="26" maxheight="17" normalimage="file='sys_dlg_max.png' source='52,0,78,17'" hotimage="file='sys_dlg_max.png' source='26,0,52,18'" pushedimage="file='sys_dlg_max.png' source='0,0,26,17'"/>
@@ -26,12 +26,7 @@
     </HorizontalLayout>
     <HorizontalLayout height="67">
       <HorizontalLayout inset="8,5,0,0">
-        <Option pos="10, 0, 75, 62" float="true" align="bottom" name="common" text="常用" textcolor="#FF386382" font="1" textpadding="0,0,0,2" foreimage="file='commmon.png' dest='10,5,50,45'" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png" group="quickbar" selected="true"/>
-        <Option pos="85, 0, 150, 62" float="true" align="bottom" text="木马防火墙" textcolor="#FF386382" font="1" textpadding="0,0,0,2" foreimage="file='firewall.png' dest='10,5,50,45'" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png" group="quickbar"/>
-        <Option pos="160, 0, 225, 62" float="true" align="bottom" text="杀毒" textcolor="#FF386382" font="1" textpadding="0,0,0,2" foreimage="file='antivirus.png' dest='10,5,50,45'" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png" group="quickbar"/>
-        <Option pos="235, 0, 300, 62" float="true" align="bottom" text="网盾" textcolor="#FF386382" font="1" textpadding="0,0,0,2" foreimage="file='networkshield.png' dest='10,5,50,45'" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png" group="quickbar"/>
-        <Option pos="310, 0, 375, 62" float="true" align="bottom" text="防盗号" textcolor="#FF386382" font="1" textpadding="0,0,0,2" foreimage="file='preventnumber.png' dest='10,5,50,45'" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png" group="quickbar"/>
-        <Option pos="385, 0, 450, 62" float="true" align="bottom" text="软件管家" textcolor="#FF386382" font="1" textpadding="0,0,0,2" foreimage="file='softwaremanager.png' dest='10,5,50,45'" normalimage="toolbar_normal.png" hotimage="toolbar_hover.png" pushedimage="toolbar_pushed.png" selectedimage="toolbar_pushed.png" group="quickbar"/>
+        
       </HorizontalLayout>
       <HorizontalLayout width="150" inset="0,5,1,0">
         <Button bkimage="file='logo.png'"/>
@@ -51,10 +46,10 @@
             <ComputerExamine />
           </HorizontalLayout>
           <HorizontalLayout>
-            <Text text="查杀木马" pos="335, 180, 600, 300" relativepos="50,50,0,0"  float="true" font="4" />
+            <BespeakMeal />
           </HorizontalLayout>
           <HorizontalLayout>
-            <Text text="清理插件" pos="335, 180, 600, 300" relativepos="50,50,0,0"  float="true" font="4" />
+            <ComputerExamine />
           </HorizontalLayout>
           <HorizontalLayout>
             <Text text="修复漏洞" pos="335, 180, 600, 300" relativepos="50,50,0,0"  float="true" font="4" />
@@ -83,14 +78,14 @@
       <Text text="{c #386382}已成功连接至360云安全中心{/c}" pos="570, 5, 800, 24" float="true" showhtml="true"/>
     </HorizontalLayout>
     <HorizontalLayout float="true" pos="1,96,799,122">
-      <Option pos="6, 0, 84, 26" float="true" text="电脑体检" name="examine" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab" selected="true"/>
-      <Option pos="86, 0, 164, 26" float="true" text="查杀木马" name="trojan" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab"/>
-      <Option pos="166, 0, 244, 26" float="true" text="清理插件" name="plugins" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab"/>
-      <Option pos="246, 0, 324, 26" float="true" text="修复漏洞" name="vulnerability" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab"/>
+      <Option pos="6, 0, 84, 26" float="true" text="加班订餐" name="examine" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab" selected="true"/>
+      <Option pos="86, 0, 164, 26" float="true" text="订餐记录" name="trojan" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab"/>
+      <Option pos="166, 0, 244, 26" float="true" text="员工管理" name="plugins" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab"/>
+      <!-- <Option pos="246, 0, 324, 26" float="true" text="修复漏洞" name="vulnerability" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab"/>
       <Option pos="326, 0, 404, 26" float="true" text="清理垃圾" name="rubbish" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab"/>
       <Option pos="406, 0, 484, 26" float="true" text="清理痕迹" name="cleanup" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab"/>
       <Option pos="486, 0, 564, 26" float="true" text="系统修复" name="fix" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab"/>
-      <Option pos="566, 0, 644, 26" float="true" text="高级工具" name="tool" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab"/>
+      <Option pos="566, 0, 644, 26" float="true" text="高级工具" name="tool" textcolor="#FF386382" font="2" normalimage="tabbar_normal.png" hotimage="tabbar_hover.png" pushedimage="tabbar_pushed.png" selectedimage="tabbar_pushed.png" group="contenttab"/> -->
     </HorizontalLayout>
   </VerticalLayout>
 </Window>

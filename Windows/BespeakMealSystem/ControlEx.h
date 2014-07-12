@@ -24,7 +24,7 @@ class CDialogBuilderCallbackEx : public IDialogBuilderCallback
 public:
 	CControlUI* CreateControl(LPCTSTR pstrClass) 
 	{
-		if( _tcscmp(pstrClass, _T("ComputerExamine")) == 0 ) return new ComputerExamineUI;
+		if (_tcscmp(pstrClass, _T("ComputerExamine")) == 0) return new ComputerExamineUI;
 		return NULL;
 	}
 };

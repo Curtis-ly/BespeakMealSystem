@@ -2,7 +2,7 @@
 //
 
 #include "stdafx.h"
-#include <UIlib.h>
+#include "UIlib.h"
 #include <shellapi.h>
 #include "ControlEx.h"
 
@@ -278,7 +278,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE /*hPrevInstance*/, LPSTR /*l
 
 	CDuiFrameWnd* pFrame = new CDuiFrameWnd();
 	if (pFrame == NULL) return 0;
-	pFrame->Create(NULL, _T("360安全卫士"), UI_WNDSTYLE_FRAME, 0L, 0, 0, 800, 572);
+	pFrame->Create(NULL, _T("加班订餐系统"), UI_WNDSTYLE_FRAME, 0L, 0, 0, 800, 572);
 	pFrame->CenterWindow();
 	::ShowWindow(*pFrame, SW_SHOW);
 
